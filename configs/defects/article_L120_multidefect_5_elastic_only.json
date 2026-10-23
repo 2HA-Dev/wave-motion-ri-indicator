@@ -1,0 +1,47 @@
+{
+  "name": "article_L120_multidefect_5_elastic_only",
+  "background_factor": 1.0,
+  "conflict_policy": "error",
+  "defects": [
+    {
+      "name": "D1_center",
+      "center_x": 60.0,
+      "center_y": 60.0,
+      "radius": 0.5,
+      "rho_factor": 1.0,
+      "stiffness_factor": 0.75
+    },
+    {
+      "name": "D2_bottom_left",
+      "center_x": 56.0,
+      "center_y": 56.0,
+      "radius": 0.4,
+      "rho_factor": 1.0,
+      "stiffness_factor": 0.80
+    },
+    {
+      "name": "D3_bottom_right",
+      "center_x": 64.0,
+      "center_y": 56.0,
+      "radius": 0.7,
+      "rho_factor": 1.0,
+      "stiffness_factor": 0.60
+    },
+    {
+      "name": "D4_top_left",
+      "center_x": 56.0,
+      "center_y": 64.0,
+      "radius": 0.8,
+      "rho_factor": 1.0,
+      "stiffness_factor": 0.90
+    },
+    {
+      "name": "D5_top_right",
+      "center_x": 64.0,
+      "center_y": 64.0,
+      "radius": 0.6,
+      "rho_factor": 1.0,
+      "stiffness_factor": 0.50
+    }
+  ]
+}

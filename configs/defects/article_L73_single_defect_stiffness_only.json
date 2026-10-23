@@ -1,0 +1,15 @@
+{
+  "name": "article_L73_single_defect_stiffness_only",
+  "background_factor": 1.0,
+  "conflict_policy": "error",
+  "defects": [
+    {
+      "name": "D1_center",
+      "center_x": 36.5,
+      "center_y": 36.5,
+      "radius": 0.25,
+      "rho_factor": 1.0,
+      "stiffness_factor": 0.75
+    }
+  ]
+}

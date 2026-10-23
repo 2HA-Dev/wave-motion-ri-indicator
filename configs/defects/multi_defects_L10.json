@@ -1,0 +1,28 @@
+{
+  "name": "multi_defects_L10",
+  "background_factor": 1.0,
+  "conflict_policy": "last",
+  "defects": [
+    {
+      "name": "defect_A",
+      "center_x": 5.0,
+      "center_y": 5.0,
+      "radius": 1.0,
+      "material_factor": 0.8
+    },
+    {
+      "name": "defect_B",
+      "center_x": 3.0,
+      "center_y": 7.0,
+      "radius": 0.6,
+      "material_factor": 0.7
+    },
+    {
+      "name": "defect_C",
+      "center_x": 7.0,
+      "center_y": 3.0,
+      "radius": 0.8,
+      "material_factor": 0.6
+    }
+  ]
+}

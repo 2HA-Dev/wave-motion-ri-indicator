@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "elastic-fwi"
+version = "0.1.0"
+description = "FEniCSx/PETSc code for qualitative imaging of orthotropic elastic plates by adjoint sensitivity maps"
+requires-python = ">=3.10"
+dependencies = [
+    "numpy",
+    "meshio>=5.3",
+]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["elastic_fwi*"]
+
+[tool.pytest.ini_options]
+testpaths = ["elastic_fwi/tests"]
+addopts = "-q"
+
+[project.optional-dependencies]
+postprocessing = [
+    "pandas>=2.0",
+    "matplotlib>=3.7",
+]

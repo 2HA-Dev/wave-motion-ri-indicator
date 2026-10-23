@@ -1,0 +1,80 @@
+from elastic_fwi.materials.defects import (
+    CircularDefectSpec,
+    DefectScenario,
+    assign_defect_indices_to_points,
+    assign_material_component_factors_to_points,
+    assign_material_factors_to_points,
+    defect_membership_mask,
+    ensure_defect_tuple,
+)
+from elastic_fwi.materials.dg0_fields import (
+    assign_cellwise_values_to_dg0,
+    create_named_dg0_function,
+    create_scalar_dg0_space,
+    defective_dg0_material_functions,
+    dg0_functions_from_point_fields,
+    homogeneous_dg0_material_functions,
+    material_indices_and_dg0_functions,
+)
+from elastic_fwi.materials.localized import localized_disk_dg0_material_functions
+from elastic_fwi.materials.legacy_data import (
+    LEGACY_DEFECTS,
+    LEGACY_DEFECT_MATERIAL_FACTOR,
+    LEGACY_DEFECT_NORM_ORDER,
+    LEGACY_DEFECT_SCENARIO,
+    legacy_defect_scenario,
+    legacy_defect_specs,
+    legacy_defective_material,
+    legacy_healthy_material,
+)
+from elastic_fwi.materials.orthotropic import (
+    LEGACY_HEALTHY_MATERIAL,
+    OrthotropicPlaneStrainConstants,
+    # Deprecated alias of the line above, kept for backward compatibility.
+    OrthotropicPlaneStressConstants,
+    legacy_defect_material,
+)
+from elastic_fwi.materials.point_fields import (
+    OrthotropicPointFields,
+    defective_material_fields_at_points,
+    homogeneous_material_fields_at_points,
+    material_fields_from_component_factors,
+    material_fields_from_factors,
+    material_indices_and_fields_at_points,
+)
+
+__all__ = [
+    "CircularDefectSpec",
+    "DefectScenario",
+    "assign_defect_indices_to_points",
+    "assign_material_component_factors_to_points",
+    "assign_material_factors_to_points",
+    "defect_membership_mask",
+    "ensure_defect_tuple",
+    "assign_cellwise_values_to_dg0",
+    "create_named_dg0_function",
+    "create_scalar_dg0_space",
+    "defective_dg0_material_functions",
+    "dg0_functions_from_point_fields",
+    "homogeneous_dg0_material_functions",
+    "material_indices_and_dg0_functions",
+    "localized_disk_dg0_material_functions",
+    "LEGACY_DEFECTS",
+    "LEGACY_DEFECT_MATERIAL_FACTOR",
+    "LEGACY_DEFECT_NORM_ORDER",
+    "LEGACY_DEFECT_SCENARIO",
+    "legacy_defect_scenario",
+    "legacy_defect_specs",
+    "legacy_defective_material",
+    "legacy_healthy_material",
+    "LEGACY_HEALTHY_MATERIAL",
+    "OrthotropicPlaneStrainConstants",
+    "OrthotropicPlaneStressConstants",
+    "legacy_defect_material",
+    "OrthotropicPointFields",
+    "defective_material_fields_at_points",
+    "homogeneous_material_fields_at_points",
+    "material_fields_from_component_factors",
+    "material_fields_from_factors",
+    "material_indices_and_fields_at_points",
+]

@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the article and the archived software version."
+title: "Qualitative imaging of orthotropic elastic plates by first-iteration adjoint sensitivity maps: finite-element code for the reflection–transmission residual-wave interaction indicator"
+version: "v1"
+type: software
+license: MIT
+doi: 10.5281/zenodo.23534379
+date-released: 2026-10-22
+authors:
+  - family-names: "Hafidi Alaoui"
+    given-names: "Hamza"
+    affiliation: "Independent Researcher, Paris, France"
+    orcid: "https://orcid.org/0009-0002-7408-2259"
+preferred-citation:
+  type: article
+  title: "Qualitative imaging of orthotropic elastic plates by first-iteration adjoint sensitivity maps: a reflection–transmission residual-wave interaction indicator"
+  authors:
+    - family-names: "Hafidi Alaoui"
+      given-names: "Hamza"
+      orcid: "https://orcid.org/0009-0002-7408-2259"
+    - family-names: "Zayeni"
+      given-names: "Hatem"
+  journal: "Wave Motion"
+  volume: 148
+  start: 103863
+  year: 2027
+  doi: 10.1016/j.wavemoti.2026.103863
